@@ -66,3 +66,25 @@ let min;
 
  
  alert("Ең үлкен және ең кіші сандың айырмасы: " +(max-min) )
+
+ let num =  55;
+
+ 
+ function sandar() {
+     while(true){
+         let san = +prompt("Сан енгізіңіз: ")
+     if(num == san){
+       alert("Керемет сіз санды таптыңыз!")
+     }else if(san < 0 || san > 100){
+         alert("Қүып кеттіңіз!")
+     }else if (num-10<=san && san<=num+10){
+         alert("Сіз жақындап қалдыңыз: " )
+     }else{
+         alert("Сіз алыстап кеттіңіз! ")
+     }
+     }
+ 
+ }
+ 
+ 
+ sandar();
