@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    
+}
+#box{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 35%;
+    background-color: rgba(85, 144, 233, 0.175);
+}
+#btn{
+    border: none;
+    margin-top:25px ;
+    background-color: rgba(6, 90, 111, 0.521);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 28px;
+    transition-duration: 1s;
+}
+#btn:hover{
+    opacity: 75%;
+    background-color: blue;
+}
